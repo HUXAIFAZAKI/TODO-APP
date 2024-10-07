@@ -19,7 +19,7 @@ body{
   justify-content: center;
   align-items: center;
   display: grid;
-  grid-template-columns: 500px 250px 100px;
+  grid-template-columns: 35vw 25vw 15vw;
   column-gap: 10px;
   row-gap: 10px;
   margin-top: 10px;
@@ -38,7 +38,7 @@ div span{
 }
 
 .add-btn{
-  transition: box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.15s ease-in-out;
   background-color: rgb(0, 255, 0);
   border: none;
   border-radius: 5px;
@@ -50,7 +50,7 @@ div span{
 }
 
 .dlt-btn{
-  transition: box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.15s ease-in-out;
   padding: 10px;
   border: none;
   border-radius: 5px;
@@ -65,3 +65,4 @@ div span{
   text-align: center;
   overflow: hidden;
 }
+
